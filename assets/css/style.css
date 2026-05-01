@@ -99,7 +99,7 @@ header {
 
 .hero-main {
     position: relative;
-    height: 450px;
+    height: 380px; /* Reducido de 450px para un mejor balance visual */
     border-radius: 8px;
     overflow: hidden;
 }
@@ -108,6 +108,7 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center 20%; /* Ajustado para que el rostro se vea mejor */
 }
 
 .hero-overlay {
